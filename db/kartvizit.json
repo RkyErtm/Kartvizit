@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Backend Developer",
+      "name": "Fatih KOBACIK",
+      "phone": "555 666 77 88",
+      "email": null,
+      "address": null
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "name": "Rukiye Ertem",
+      "phone": "555 666 77 88",
+      "email": "rky@gmail.com",
+      "address": "Osmangazi/Ankara"
+    },
+    {
+      "name": "Mert Ddd",
+      "title": "Siber Security",
+      "phone": "333 222 222",
+      "email": "mertasddf",
+      "address": "",
+      "id": 4
+    },
+    {
+      "name": "Elif Ffff",
+      "title": "Siber Security",
+      "phone": "12334324",
+      "email": "elif@gmail.com",
+      "address": "Çankaya,Ankara",
+      "id": 5
+    },
+    {
+      "name": "Ayşe",
+      "title": "FrontEnd",
+      "phone": "2434325",
+      "email": "",
+      "address": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "title": "FrontEnd Developer",
+      "phone": "053661824343",
+      "email": "",
+      "address": "",
+      "id": 10
+    }
+  ]
+}
