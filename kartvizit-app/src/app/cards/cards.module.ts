@@ -12,9 +12,10 @@ import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { CardSearchComponent } from './card-search/card-search.component';
 
 @NgModule({
-  declarations: [CardsComponent, CardItemComponent, CardModalComponent],
+  declarations: [CardsComponent, CardItemComponent, CardModalComponent, CardSearchComponent],
   imports: [
     CommonModule,
     CardsRoutingModule,

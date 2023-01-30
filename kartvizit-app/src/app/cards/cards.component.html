@@ -4,12 +4,13 @@
       <h1 class="page-title">Kartvizitler</h1>
       <p class="page-description">Kartvizitinizi yönetebilirsiniz.</p>
     </div>
-    <button mat-flat-button color="primary" (click)="openAddCardModal()">EKLE</button>
+    <app-card-search></app-card-search>
+    <button mat-flat-button color="primary" id="add-button" style="margin-left:16px" (click)="openAddCardModal()">EKLE</button>
   </div>
   <hr>
   <div class="cards">
     <div class="row">
-      <div class="col-12 col-md-4 col-lg-3" *ngFor="let card of cardService.cards">
+      <div class="col-12 col-md-4 col-lg-3" *ngFor="let card of cardService.filteredCards">
         <card-item [card]="card"></card-item>
       </div>
     </div>

@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class CardService implements OnInit {
   cards!: Card[];
+  filteredCards?: Card[]; //burada ikinci bir değişken daha oluşturma sebebimiz: 1 kere arama yapıp silince sadece filtrelenenler kalıyor.
 
   constructor(
     @Inject('apiUrl') private apiUrl: string,
@@ -17,7 +18,7 @@ export class CardService implements OnInit {
 
   getCards(): void {
     this.http.get<Card[]>(this.apiUrl).subscribe((res: Card[]) => {
-      this.cards = res;
+      this.cards = this.filteredCards = res;
     });
   }
 

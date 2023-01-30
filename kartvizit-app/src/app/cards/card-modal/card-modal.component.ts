@@ -49,7 +49,7 @@ export class CardModalComponent implements OnInit {
     this.cardService.addCard(this.cardForm.value).subscribe((res: any) => {
       this.getSuccess("eklendi!")
     },(err:any)=>{
-      this.getError('Ekleme HATA')
+      this.getError('Ekleme "HATA')
     });
   }
 
